@@ -25,9 +25,10 @@ dataFromApi
           //перевод стран
           function translateRus() {
             countriesData.forEach(item => {
-              item[0] = countriesRu[countriesData.indexOf(item)];
+              item[0] = countriesRu[countriesEn.indexOf(item[0])];
             });
           }
+          
           translateRus();
 
           //Отображение статистики по конкретной стране
