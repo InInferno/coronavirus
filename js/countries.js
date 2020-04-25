@@ -1,4 +1,4 @@
-let CountiesEn = [
+const countriesEn = [
 "Spain",
 "Italy",
 "Germany",
@@ -185,7 +185,7 @@ let CountiesEn = [
 "Timor-Leste",
 "Yemen"]
 
-let countriesRu = [
+const countriesRu = [
 "Испания",
 "Италия",
 "Германия",
@@ -311,7 +311,7 @@ let countriesRu = [
 "Мали",
 "Монако",
 "Лихтенштейн",
-"Идти",
+"Того",
 "Барбадос",
 "Эфиопия",
 "Ямайка",
